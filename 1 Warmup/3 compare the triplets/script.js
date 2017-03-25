@@ -2,7 +2,7 @@
  * main reads a and b and compute if ai > bi or ai < bi or ai = bi
  * It's basically compare triplets
  *
- * @return {String} description
+ * @return {String} points acquired by A and points acquired by b
  */
 function main() {
   let aTemp = readLine().split(' ');
