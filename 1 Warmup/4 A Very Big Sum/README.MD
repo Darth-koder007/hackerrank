@@ -10,7 +10,7 @@
 
 #### **Constraints**
 * 1 <= N <= 10
-* 0 <= A[i] <= 10^10^
+* 0 <= A[i] <= 10<sup>10</sup>
 
 #### **Sample Input**
 5
@@ -20,4 +20,4 @@
 5000000015
 
 ##### *# Note*:
-*The range of the 32-bit integer is (-2^31^) to (2^31^ -1).*
+*The range of the 32-bit integer is (-2<sup>31</sup>) to (2<sup>31</sup> -1).*
