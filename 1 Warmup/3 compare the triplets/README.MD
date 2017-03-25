@@ -16,8 +16,8 @@ The first line contains  space-separated integers, a0, a1, and a2, describing th
 The second line contains  space-separated integers, b0, b1, and b2, describing the respective values in triplet.
 
 Constraints
-* 1<= a~i~ <= 100
-* 1 <= b~i~ <= 100
+* 1<= a<sub>i</sub> <= 100
+* 1 <= b<sub>i</sub> <= 100
 
 Output Format
 
@@ -33,11 +33,11 @@ Sample Output
 Explanation
 
 In this example:
-* A = (a~0~, a~1~, a~2~) = (5, 6, 7)
-* B = (b~0~, b~1~, b~2~) = (3, 6, 10)
+* A = (a<sub>0</sub>, a<sub>1</sub>, a<sub>2</sub>) = (5, 6, 7)
+* B = (b<sub>0</sub>, b<sub>1</sub>, b<sub>2</sub>) = (3, 6, 10)
 Now, let's compare each individual score:
 
- **a~i~ < b~i~, so Alice receives  point.
-a~i~ = b~i~, so nobody receives a point.
-a~i~ > b~i~, so Bob receives  point.
-Alice's comparison score is , and Bob's comparison score is . Thus, we print 1 1 (Alice's comparison score followed by Bob's comparison score) on a single line.**
+ *a<sub>i</sub> < b<sub>i</sub>, so Alice receives  point.
+a<sub>i</sub> = b<sub>i</sub>, so nobody receives a point.
+a<sub>i</sub> > b<sub>i</sub>, so Bob receives  point.
+Alice's comparison score is , and Bob's comparison score is . Thus, we print 1 1 (Alice's comparison score followed by Bob's comparison score) on a single line.*
