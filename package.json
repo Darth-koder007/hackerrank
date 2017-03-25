@@ -1,0 +1,29 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "Hackerrank algorithms solutions's",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^3.18.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-google": "^0.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darth-koder007/hackerrank.git"
+  },
+  "keywords": [
+    "hackerrank"
+  ],
+  "author": "vijay singh <vj2010sn@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Darth-koder007/hackerrank/issues"
+  },
+  "homepage": "https://github.com/Darth-koder007/hackerrank#readme"
+}
