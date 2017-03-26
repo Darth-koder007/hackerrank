@@ -11,15 +11,17 @@ Output Format
 
 Print two space-separated long integers denoting the respective minimum and maximum values that can be calculated by summing exactly four of the five integers. (The output can be greater than 32 bit integer.)
 
-Sample Input
+##### Sample Input
 
 1 2 3 4 5
-Sample Output
+
+##### Sample Output
 
 10 14
-Explanation
 
-Our initial numbers are 1, 2, 3, 4, and 5. We can calculate the following sums using four of the five integers:
+##### Explanation
+
+**Our initial numbers are 1, 2, 3, 4, and 5. We can calculate the following sums using four of the five integers:**
 
 1. If we sum everything except 1, our sum is 14.
 2. If we sum everything except 2, our sum is 13.
@@ -27,6 +29,6 @@ Our initial numbers are 1, 2, 3, 4, and 5. We can calculate the following sums u
 4. If we sum everything except 4, our sum is 11.
 5. If we sum everything except 5, our sum is 10.
 
-As you can see, the minimal sum is 1+2+3+4 = 10 and the maximal sum is 2+3+4+5 = 14. Thus, we print these minimal and maximal sums as two space-separated integers on a new line.
+*As you can see, the minimal sum is 1+2+3+4 = 10 and the maximal sum is 2+3+4+5 = 14. Thus, we print these minimal and maximal sums as two space-separated integers on a new line.*
 
 Hints: Beware of integer overflow! Use 64-bit Integer.
