@@ -33,4 +33,4 @@ You must print the following  lines:
 
 There are 3 positive numbers, 2 negative numbers, and 1 zero in the array.
 
-The respective fractions of positive numbers, negative numbers and zeroes are \frac{3}{6}=0.50000, \frac{2}{6}=0.33333 and \frac{1}{6}=0.166667, respectively.
+The respective fractions of positive numbers, negative numbers and zeroes are <sup>3</sup>/<sub>6</sub>=0.50000, <sup>2</sup>/<sub>6</sub>=0.333333 and <sup>1</sup>/<sub>6</sub>=0.166667, respectively.
