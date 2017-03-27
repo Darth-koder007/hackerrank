@@ -12,8 +12,8 @@ Convert and print the given time in 24-hour format, where 00 <= hh <= 23.
 
 ##### Sample Input
 
-        07:05:45PM
+    07:05:45PM
 
 ##### Sample Output
 
-        19:05:45
+    19:05:45
