@@ -7,7 +7,7 @@
 1. The first line contains a single integer, , denoting the number of candles on the cake.
 2. The second line contains  space-separated integers, where each integer  describes the height of candle .
 
-***Constraints***
+*Constraints*
 
 ##### Output Format
 
@@ -15,12 +15,16 @@
 
 ##### Sample Input
 
-```4
-3 2 1 3```
+```
+4
+3 2 1 3
+```
 
 ##### Sample Output
 
-```2```
+```
+2
+```
 
 ##### Explanation
 
