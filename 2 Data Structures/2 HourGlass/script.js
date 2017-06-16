@@ -23,7 +23,7 @@ class HourGlassProblem {
    * Get all hourglass in a collection
    * @return {Number} largestSum
    */
- getAllHourGlassesFromCollection() {
+  getAllHourGlassesFromCollection() {
     if(this.hourGlassCollection) {
       let largestSum;
       let currentSum = 0;
@@ -43,15 +43,15 @@ class HourGlassProblem {
   }
 
 
-/**
- * Iterate hour glass elements
- * @param  {Array} row
- * @param  {Number} column
- * @return {Number}
- */
- iterateHourGlass(row, column) {
+  /**
+   * Iterate hour glass elements
+   * @param  {Array} row
+   * @param  {Number} column
+   * @return {Number}
+   */
+  iterateHourGlass(row, column) {
     if ((row + 3 > this.hourGlassCollection.length)
-      || (column + 3 > this.hourGlassCollection[row].length)) {
+    || (column + 3 > this.hourGlassCollection[row].length)) {
       return;
     }
 
@@ -62,7 +62,7 @@ class HourGlassProblem {
     for(let i = row; i < newRow; i++) {
       for(let j = column; j < newColumn; j++) {
         if (!((i === newRow - 2) && (j === column || j === newColumn - 1))) {
-         sum = sum + this.hourGlassCollection[i][j];
+          sum = sum + this.hourGlassCollection[i][j];
         }
       }
     }
