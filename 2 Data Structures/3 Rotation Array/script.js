@@ -20,6 +20,9 @@ class ArrayRotation {
     //  Assign direction to right by default
     direction = direction || 'right';
 
+    if (rotations > this.array.length) {
+      rotations = rotations % this.array.length;
+    }
     //  Store current array value
     let array = JSON.parse(JSON.stringify(this.array));
 
@@ -54,3 +57,5 @@ class ArrayRotation {
     return newArr;
   }
 }
+
+export { ArrayRotation };
